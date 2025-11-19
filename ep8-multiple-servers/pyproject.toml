@@ -1,0 +1,8 @@
+[project]
+name = "ep8-multiple-servers"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.21.0",
+]

@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "weather-mcp": {
+      "command": "/path/to/uv",
+      "args": [
+        "--directory",
+        "/path/to/mcp-series/ep7-weather-server/weather-app/",
+        "run",
+        "weather_mcp.py"
+      ]
+    },
+    "math-mcp": {
+      "command": "/path/to/uv",
+      "args": [
+        "--directory",
+        "/path/to/mcp-series/ep8-multiple-servers/",
+        "run",
+        "math_mcp.py"
+      ]
+    },
+    "time-mcp": {
+      "command": "/path/to/uv",
+      "args": [
+        "--directory",
+        "/path/to/mcp-series/ep8-multiple-servers/",
+        "run",
+        "time_mcp.py"
+      ]
+    }
+  }
+}
