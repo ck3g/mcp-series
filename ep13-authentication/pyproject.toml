@@ -1,0 +1,8 @@
+[project]
+name = "memory-mcp-auth"
+version = "0.1.0"
+description = "Memory MCP server with token authentication (Episode 13)"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp<3",
+]
